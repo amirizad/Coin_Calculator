@@ -1,0 +1,126 @@
+body {
+	background-color: #f7f7f7;
+	font-family: 'Arial Narrow', Arial, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.wireframe {
+	background-color: #fff;
+	margin: auto;
+	width: 320px;
+	height: 600px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	text-align: center;
+	max-width: 100%;
+	max-height: 100%;
+	box-shadow: 2px 2px 2px #ccc;
+	border: 1px solid #ececec;
+}
+
+#coins {
+	padding-left: 5px;
+	height: 300px;
+}
+
+.title {
+	text-align: center;
+	padding: 35px 0 15px 0;
+}
+
+.title h4 {
+	font-weight: bold;
+}
+
+.circle{
+	float:left;
+	margin:20px;
+	width: 100px;
+	height: 100px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	background: #ccc;
+	text-align:start;
+}
+.cointype input[type=text]{
+	color:#666;
+	border:none;
+	background-color:transparent;
+	font-size:22px;
+	width:100px;
+	height:100px;
+	text-align:center;
+	line-height: 50px;
+	position: absolute;
+}
+
+input[type=text]:focus {
+	outline: none;
+	color: #000;
+	text-decoration: underline;
+}
+
+.count {
+	float: right;
+	width: 25px;
+	height: 25px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	background: #000;
+	text-align: center;
+}
+
+.count label {
+	color: #fff;
+	line-height: 25px;
+}
+
+.count.hidelabel {
+	background-color: transparent;
+}
+
+.count.hidelabel label {
+	display: none;
+}
+
+.textinput input {
+	clear: both;
+	width: 80%;
+	line-height: 40px;
+	margin: 15px auto;
+}
+
+.textinput input[type=number] {
+	color: #000;
+	border: 1px solid #ccc;
+	background-color: #fafafa;
+	font-size: 22px;
+	text-align: right;
+	padding: 0 20px;
+}
+
+.textinput input[type=button] {
+	color: #fff;
+	border: none;
+	background-color: #000;
+	font-size: 16px;
+	text-align: center;
+}
+
+.textinput input[type=button]:disabled {
+	color: #fff;
+	background-color: #ccc;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 650px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+	.wireframe {
+		overflow: scroll;
+	}
+}

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Coin Counter</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="wireframe col-xs-12 col-sm-6 col-md-4">
+                <div class="title">
+                    <h4>COIN COUNTER</h4>
+                </div>
+                <div id="coins">
+                    <div id="coin0" class="circle">
+                        <div class="count"><label id="coinlbl0"></label></div>
+                        <div class="cointype">
+                            <input id="cointxt0" type="text" value="25">
+                        </div>
+                    </div>
+                    <div id="coin1" class="circle">
+                        <div class="count"><label id="coinlbl1"></label></div>
+                        <div class="cointype">
+                            <input id="cointxt1" type="text" value="10">
+                        </div>
+                    </div>
+                    <div id="coin2" class="circle">
+                        <div class="count"><label id="coinlbl2"></label></div>
+                        <div class="cointype">
+                            <input id="cointxt2" type="text" value="5">
+                        </div>
+                    </div>
+                    <div id="coin3" class="circle">
+                        <div class="count"><label id="coinlbl3"></label></div>
+                        <div class="cointype">
+                            <input id="cointxt3" type="text" value="1">
+                        </div>
+                    </div>
+                </div>
+                <div class="textinput">
+                    <input id="total" type="number" value="0" min="0" max="99">
+                    <input id="calc" type="button" value="CALCULATE">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="script/main.js"></script>    
+</body>
+</html>
